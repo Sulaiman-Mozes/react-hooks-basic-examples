@@ -29,7 +29,7 @@ const ImageToggleOnScroll = ({primaryImg, secondaryImg}) => {
             <img
                 src={isLoading ? "" : inView ? primaryImg : secondaryImg}
                 alt="Loading ....."
-                height="400px"
+                width="600px"
                 ref={imageRef}
             />
         </div>
